@@ -2,7 +2,7 @@ name: LOG
 
 on:
   schedule:
-    - cron: '26 * * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch:
 
 jobs:
